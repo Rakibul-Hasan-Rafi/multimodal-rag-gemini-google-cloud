@@ -1,0 +1,8 @@
+google-genai
+pymupdf
+numpy
+pandas
+pillow
+rich
+ipython
+jupyterlab

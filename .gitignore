@@ -1,0 +1,34 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.json.key
+*service-account*.json
+credentials.json
+
+# Lab sample assets, metadata caches, downloaded images / models
+data/
+images/
+metadata/
+*.pkl
+*.pickle
+*.parquet
+models/
+checkpoints/
+
+# Original notebook or debug scratch files
+Untitled.ipynb
+lab_rag_compat(1).py
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
